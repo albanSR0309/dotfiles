@@ -1,0 +1,12 @@
+[user]
+	name = Alban Rodriguez
+	email = alban.rodriguez95@gmail.com
+
+[fetch]
+	prune = true
+
+[push]
+	default = simple
+
+[pull]
+	rebase = true

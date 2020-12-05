@@ -1,0 +1,6 @@
+typescript
+angular
+@angular/cli
+react
+vue
+svelte
