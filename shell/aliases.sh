@@ -5,22 +5,27 @@ alias ..="cd .."
 alias ...="cd ../.."
 
 # Jumps
-alias code='cd ~/Code'
-alias kbox="cd ~/Code/codely"
+alias mnt='cd ~ && cd / && cd mnt'
+alias develop="mnt && cd e/source/"
+alias kbox="mnt && cd e/source/kbox-sales-tools"
+alias experiments="mnt && cd e/source/experiments"
+alias personal="mnt && cd e/source/personal"
 
 # Git
 alias gaa="git add -A"
-alias gc="dot git commit"
+alias gcm="git add -A && git commit -m"
+alias gcm="git add -A && git commit -m"
+alias gc="git commit -m"
 alias gca="git add --all && git commit --amend --no-edit"
 alias gco="git checkout"
-alias gd="dot git pretty-diff"
+alias gd="git pretty-diff"
 alias gs="git status -sb"
 alias gf="git fetch --all -p"
 alias gps="git push"
 alias gpsf="git push --force"
 alias gpl="git pull --rebase --autostash"
-alias gl="dot git pretty-log"
+alias gl="git pretty-log"
 
 alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
-alias o.='open .'
+alias o.='open .'0.
